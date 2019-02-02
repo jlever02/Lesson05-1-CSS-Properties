@@ -3,11 +3,18 @@
   margin: 0;
   padding: 0;
 }
+section .h1 {
+  display:none;
+}
 
 section {
   display:flex;
   flex-direction: row;
-
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  height:20em;
+  background-color:pink;
+  align-items: center;
 }
 
 .box {
